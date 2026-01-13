@@ -1,6 +1,9 @@
 ```bash
 sudo apt update
 sudo apt install clang clangd lldb cmake clang-format gdb
+# bear 配合make
+sudo apt install bear
+bear -- <your-build-command>
 
 #### vscode config
 安装clang、clang-format、C/C++、cmkae、cmake-tools、C++ Heleper等插件
