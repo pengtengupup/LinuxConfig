@@ -3,6 +3,9 @@
 sudo apt update && sudo apt upgrade -y
 # 安装 zsh git curl
 sudo apt install zsh git curl -y
+# 更改默认终端为zsh
+chsh -s /bin/zsh
+
 # 安装 oh my zsh
 sh -c "$(curl -fsSL https://install.ohmyz.sh/)"
 # oh my zsh config
