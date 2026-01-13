@@ -1,0 +1,23 @@
+BasedOnStyle: Google
+IndentWidth: 4
+AlignConsecutiveAssignments: true  # 对齐连续赋值
+SortIncludes: true               # 排序头文件
+ColumnLimit: 100                # 每行最大字符数
+BreakBeforeBraces: Allman        # 大括号单独占一行
+AllowShortIfStatementsOnASingleLine: false # if语句不允许单行
+AllowShortFunctionsOnASingleLine: None     # 函数体不允许单行
+AllowShortLoopsOnASingleLine: false        # 循环体不允许单行
+SpaceBeforeParens: ControlStatements # 控制语句前加空格
+SpacesInParentheses: false      # 括号内不加空格
+SpacesInSquareBrackets: false   # 中括号内不加空格
+SpacesInAngles: false           # 尖括号内不加空格
+Cpp11BracedListStyle: true      # 使用C++11大括号初始化风格
+DerivePointerAlignment: false   # 指针对齐风格不自动推导
+PointerAlignment: Left          # 指针*靠左
+UseTab: Never                   # 不使用Tab
+TabWidth: 4                     # Tab宽度
+IndentCaseLabels: true          # switch的case缩进
+IndentPPDirectives: AfterHash   # 预处理指令#后缩进
+KeepEmptyLinesAtTheStartOfBlocks: false # 不保留块起始空行
+SpacesBeforeTrailingComments: 1 # 行尾注释前空格数
+CommentPragmas: '^ IWYU pragma:' # 特定注释保留
